@@ -1,0 +1,21 @@
+{
+  "name": "PySpark RDD Lab Environment",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "forwardPorts": [4040],
+  "portsAttributes": {
+    "4040": {
+      "label": "Spark UI",
+      "onAutoForward": "notify"
+    }
+  },
+  "postCreateCommand": "echo 'Environment ready! Now open your notebook.'"
+}
