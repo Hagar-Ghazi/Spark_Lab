@@ -52,7 +52,7 @@ Forward or open port `4040` on your host machine during runtime to explore job h
 
 ![Spark Stages History](rdd_lab/media/spark_ui_stages_history.png)
 
-![Spark Executors](rdd_lab/media/spark_ui_code_executors.png)
+![Spark Executors](rdd_lab/media/spark_ui_executors.png)
 
 ![Spark Environment](rdd_lab/media/spark_ui_environment.png)
 
