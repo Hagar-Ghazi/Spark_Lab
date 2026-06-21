@@ -28,7 +28,7 @@ A hands-on Apache Spark project focused on processing structured text datasets u
 └── README.md          # Project documentation
 ```
 
-## 🛠️ Prerequisites & Setup
+## Prerequisites & Setup
 
 Ensure you have a configured Python environment with Apache Spark and Java runtime dependencies available.
 
