@@ -5,15 +5,19 @@ A hands-on Apache Spark project focused on processing structured text datasets u
 ## Features
 
 * **Data Parsing & Map Transformations:**
+  
   Structured extraction of raw text fields into strongly-typed key-value pair attributes.
 
 * **Aggregations & Key Reductions:**
+  
   Counting occurrences across categorical attributes (such as department listings) using reduceByKey transformations.
 
 * **Dynamic Data Quality Filtering:**
+  
   Advanced multi-stage integrity validation using custom exceptions and numeric data evaluations to isolate and drop corrupted records.
 
 * **Lineage & Performance Profiling:**
+  
   Monitoring Directed Acyclic Graph (DAG) structures and task optimization utilizing the Spark Web UI tracking port.
 
 ## 📁 Repository Structure
@@ -44,16 +48,15 @@ Forward or open port `4040` on your host machine during runtime to explore job h
 
 ## Execution Monitoring
 
-```markdown
 ![Spark Jobs History](rdd_lab/media/spark_ui_jobs_history.png)
 
-![Spark Stages History](rdd_lab\media\spark_ui_stages_history.png)
+![Spark Stages History](rdd_lab/media/spark_ui_stages_history.png)
 
-![Spark Executors](rdd_lab\media\spark_ui_executors.png)
+![Spark Executors](rdd_lab/media/spark_ui_code_executors.png)
 
-![Spark Environment](rdd_lab\media\spark_ui_environment.png)
+![Spark Environment](rdd_lab/media/spark_ui_environment.png)
 
-```
+
 
 This visualizations helps demonstrate Spark job execution, stage progression, DAG lineage and performance metrics during processing.
 
